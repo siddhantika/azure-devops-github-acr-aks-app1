@@ -47,8 +47,7 @@ stages:
   jobs:
   - deployment: Deploy
     displayName: Deploy
-    pool:
-      vmImage: $(vmImageName)
+    pool: 'Default'
     environment: 'siddhantikaazuredevopsgithubacraksapp1-6395.default'
     strategy:
       runOnce:

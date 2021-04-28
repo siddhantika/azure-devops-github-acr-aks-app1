@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '7072e23b-4693-4d57-9f77-36120d7f874e'
   imageRepository: 'app1nginx'
-  containerRegistry: 'aksdevopsacr31.azurecr.io'
+  containerRegistry: 'acrforaksdemo31.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
